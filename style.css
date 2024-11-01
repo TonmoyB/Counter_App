@@ -1,0 +1,59 @@
+.mainBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 100px;
+    border: 2px solid black;
+    background-color: burlywood;
+    border-radius: 8px;
+}
+
+.counterBody {
+    margin: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.countValue {
+    font-size: 70px;
+    border: 1px solid black;
+    background-color: azure;
+    margin-bottom: 20px;
+}
+
+.counterButton,
+.resetButton {
+    width: 40%;
+    padding: 15px;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.resetButton {
+    background-color: red;
+    color: white;
+}
+
+@media (max-width: 100%) {
+    .mainBody {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .countValue {
+        font-size: 50px;
+        padding: 15px;
+    }
+
+    .counterButton,
+    .resetButton {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+}
