@@ -67,14 +67,6 @@ No external libraries are required; only basic HTML, CSS, and JavaScript are use
 
 ---
 
-## Future Improvements
-
-- Add a decrement button.
-- Display animations for counter updates.
-- Save counter state in local storage to persist between sessions.
-
----
-
 ## License
 
 This project is open-source and available under the MIT License.
